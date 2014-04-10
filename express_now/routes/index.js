@@ -9,6 +9,6 @@ exports.index = function(req, res){
 
 /* GET dashboard page. */
 exports.dashboard = function(req, res){
-  res.render('dashboard', { title: 'Dashboard', heading: 'Model' });
+  res.render('dashboard', { title: 'Dashboard', heading: 'Model', nav: "Home", nav_two: "About us", nav_three: "Contact us" });
 };
 
